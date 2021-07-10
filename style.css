@@ -1,0 +1,37 @@
+#timer {
+	position: relative;
+	display: inline-block;
+}
+
+.controls {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#duration-input {
+	border: none;
+	max-width: 250px;
+	font-size: 32px;
+	display: block;
+	text-align: center;
+}
+
+#duration-input:focus {
+	outline: none;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	display: block;
+	border: none;
+	background-color: transparent;
+	font-size: 28px;
+	cursor: pointer;
+}
